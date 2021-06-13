@@ -18,7 +18,7 @@
                         <field name="result"/>
                     </group>
                     <group>
-                        <field name="address" placehoder="Please add address"/>
+                        <field name="address" placehoder="Please add address" widget="html"/>
                         <field name="establish_date"/>
                         <field name="open_date"/>
                         <field name="school_type"/>
@@ -26,8 +26,12 @@
                     <group>
                         <field name="documents" filename="document_name"/>
                         <field name="document_name" invisible="1"/>
+                        <field name="school_image" widget="image"/>
                     </group>
 
+                </group>
+                <group>
+                        <field name="school_description" />
                 </group>
 
             </form>

@@ -26,3 +26,5 @@ class SchoolProfile(models.Model):
 
     documents = fields.Binary(string="Documents")
     document_name = fields.Char(string="File Name")
+    school_image = fields.Image(string="Upload Image", max_width=100, max_height=100)
+    school_description = fields.Html(string="Description")
